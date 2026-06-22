@@ -4,30 +4,32 @@
 
 ---
 
-# 👥 Integrantes
+# 👤 Integrante
 
-- Vitor Manoel
+* Vitor Manoel
 
 ---
 
 # 🔹 1. Fluxos Escolhidos
 
-## 👤 Integrante: Alberto Parker
+## 👤 Integrante: Vitor Manoel
 
-### Fluxo
+### Fluxo 1
+
 Histórico de pedidos
 
 ### Objetivo
+
 Validar se os pedidos realizados pelo usuário são exibidos corretamente no sistema.
 
 ---
 
-## 👤 Integrante: Eduardo Leal
+### Fluxo 2
 
-### Fluxo
 Navegação entre páginas
 
 ### Objetivo
+
 Validar se o usuário consegue navegar corretamente entre as páginas do sistema sem erros.
 
 ---
@@ -35,6 +37,7 @@ Validar se o usuário consegue navegar corretamente entre as páginas do sistema
 # 🔹 2. Cenários BDD
 
 ## 📄 Arquivo
+
 `features/historico_pedidos.feature`
 
 ```gherkin
@@ -54,6 +57,7 @@ Feature: Histórico de pedidos
 ---
 
 ## 📄 Arquivo
+
 `features/navegacao_paginas.feature`
 
 ```gherkin
@@ -178,10 +182,10 @@ Sim. O comportamento esperado ficou compreensível tanto para pessoas técnicas 
 
 ## Quais dificuldades surgiram?
 
-- Configuração do pytest-bdd
-- Integração com Playwright
-- Identificação de seletores estáveis
-- Dependência da interface visual
+* Configuração do pytest-bdd
+* Integração com Playwright
+* Identificação de seletores estáveis
+* Dependência da interface visual
 
 ---
 
@@ -205,10 +209,10 @@ Sim. Tanto o histórico de pedidos quanto a navegação entre páginas represent
 
 ## O que tornaria o teste mais robusto?
 
-- Uso de atributos `data-testid`
-- Seletores mais específicos
-- Menor dependência de textos visíveis
-- Melhor desacoplamento da interface
+* Uso de atributos `data-testid`
+* Seletores mais específicos
+* Menor dependência de textos visíveis
+* Melhor desacoplamento da interface
 
 ---
 
@@ -247,20 +251,6 @@ Ajuda na organização, documentação viva, manutenção e entendimento dos req
 # 📦 Repositório GitHub
 
 ```txt
-https://github.com/alup19/projeto-qualidade-software/tree/main/src/aula-12
+https://github.com/VitorManoel02/-projeto-qualidade-software
 ```
 
----
-
-# ✅ Conclusão
-
-A atividade permitiu compreender:
-
-- Escrita de cenários BDD
-- Estrutura Given-When-Then
-- Integração entre pytest-bdd e Playwright
-- Automação orientada a comportamento
-- Organização de testes automatizados
-- Importância da legibilidade dos testes
-- Separação entre comportamento e implementação
-- Documentação viva de requisitos
