@@ -251,6 +251,21 @@ Ajuda na organização, documentação viva, manutenção e entendimento dos req
 # 📦 Repositório GitHub
 
 ```txt
-https://github.com/VitorManoel02/-projeto-qualidade-software
+https://github.com/VitorManoel02/-projeto-qualidade-software/tree/main/src/aula-12
 ```
+
+---
+
+# ✅ Conclusão
+
+A atividade permitiu compreender:
+
+- Escrita de cenários BDD
+- Estrutura Given-When-Then
+- Integração entre pytest-bdd e Playwright
+- Automação orientada a comportamento
+- Organização de testes automatizados
+- Importância da legibilidade dos testes
+- Separação entre comportamento e implementação
+- Documentação viva de requisitos
 
